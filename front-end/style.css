@@ -1,0 +1,85 @@
+body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: rgb(119, 194, 186);
+}
+
+section.login {
+    width: 500px;
+    height: 700px;
+    background-color: rgb(218, 218, 218);
+    border-radius: 15px;
+    box-shadow: 10px 5px 30px rgb(43, 43, 43);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.login h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+div {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.write {
+    border-radius: 10px;
+    width:200%;
+    height: 25px;
+    font-size: 18px;
+    margin-top: 30px;
+    height: 50px;
+    box-shadow: 3px 3px 10px rgb(94, 94, 94);
+    border: rgb(110, 110, 110);
+}
+
+.write::placeholder {
+    color: rgb(75, 75, 75);
+    font-style: italic;
+}
+
+button {
+    margin-top: 30px;
+    width: 200%;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(94, 94, 94);
+    background-color: rgb(218, 218, 218);
+    border: rgb(206, 206, 206);
+}
+
+button:hover {
+    background-color: rgb(199, 199, 199);
+}
+
+.new_account {
+    margin-top: 30px;
+}
+
+.new_account p {
+    font-size: 18px;
+}
+
+.new_account a {
+    margin-top: 8px;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
+
+.new_account a:hover {
+    color: rgb(49, 48, 48);
+    
+}
