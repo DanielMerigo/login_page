@@ -1,6 +1,5 @@
 # LOGIN PAGE
-For use this repository you need to install some dependences:
-
+For use this repository you need to install some dependences
 **npm install pg express morgan**
 
 Use **Insomnia** for the requests and responses
